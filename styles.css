@@ -1,0 +1,357 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.link span {
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Main Content Styles */
+.main {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Block Styles */
+.block1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading.tag {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button.tag a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.title.tag {
+    font-size: 18px;
+    color: #333;
+}
+
+.block11 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.title.tag2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Faculty Block Styles */
+.block111 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block1111,
+.block1112,
+.block1113,
+.block1114 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.block1111 img,
+.block1112 img,
+.block1113 img,
+.block1114 img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name1,
+.name2,
+.name3,
+.name4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subtitle1,
+.subtitle2,
+.subtitle3,
+.subtitle4 {
+    color: #777;
+}
+
+/* Quote Styles */
+.quote {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qimage img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.qblock {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quote1 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.author1 {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Video Styles */
+.videos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.heading.tag1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vblock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.vblock1,
+.vblock2,
+.vblock3,
+.vblock4 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.vimage1,
+.vimage2,
+.vimage3,
+.vimage4 {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.vtitle1,
+.vtitle2,
+.vtitle3,
+.vtitle4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.vblock11,
+.vblock12,
+.vblock21,
+.vblock22,
+.vblock31,
+.vblock32,
+.vblock41,
+.vblock42 {
+    margin-top: 10px;
+}
+
+.vblock11image1,
+.vblock21image1,
+.vblock31image1,
+.vblock41image1 {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.vblock11title1,
+.vblock21title1,
+.vblock31title1,
+.vblock41title1 {
+    font-weight: bold;
+}
+
+/* Membership Styles */
+.membership {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mblock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mblock1,
+.mblock2,
+.mblock3,
+.mblock4 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mblock1image,
+.mblock2image,
+.mblock3image,
+.mblock4image {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.mblock1title,
+.mblock2title,
+.mblock3title,
+.mblock4title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mblocktext {
+    color: #777;
+}
+
+.mbutton a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* FAQ Styles */
+.faq {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ftitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fblock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fblock1,
+.fblock2 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fbtitle1,
+.fbtitle2,
+.fbtitle21,
+.fbtitle22 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.fbtext1,
+.fbtext2,
+.fbtext21,
+.fbtext22 {
+    color: #777;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.globalblock {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo1 img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.iblock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image1 img,
+.image2 img,
+.image3 img {
+    max-width: 80px;
+    border-radius: 50%;
+}
