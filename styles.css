@@ -1,357 +1,862 @@
-/* Reset some default browser styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
+.header,
+.header * {
+  box-sizing: border-box;
 }
-
-/* Set a background color for the body */
-body {
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
-}
-
-/* Header Styles */
 .header {
-    background-color: #007acc;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+  position: absolute;
+  inset: 0;
+}
+.logo {
+  position: absolute;
+  left: 171.59px;
+  top: 35.02px;
+  overflow: visible;
+}
+.menu {
+  width: 234px;
+  height: 15px;
+  position: absolute;
+  left: 1041px;
+  top: 37px;
+  overflow: hidden;
+}
+.courses {
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 7.5px);
+}
+.pricing {
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 102px;
+  top: calc(50% - 7.5px);
+}
+.login {
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 200px;
+  top: calc(50% - 7.5px);
 }
 
-.logo img {
-    max-width: 150px;
+.main-part,
+.main-part * {
+  box-sizing: border-box;
+}
+.main-part {
+  width: 1440px;
+  height: 1093px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  inset: 0;
+}
+.mask {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.mask2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.object {
+  width: 1448.15px;
+  height: 1055px;
+  position: static;
+}
+.bitmap {
+  width: 1448.15px;
+  height: 1055px;
+  position: absolute;
+  left: -4.08px;
+  top: -66px;
+}
+.bitmap2 {
+  background: radial-gradient(
+      closest-side,
+      rgba(41, 48, 61, 0) 0%,
+      rgba(7, 22, 41, 1) 100%
+    ),
+    linear-gradient(to left, #000000, #000000);
+  width: 1448.15px;
+  height: 1055px;
+  position: absolute;
+  left: -4.08px;
+  top: -66px;
+}
+.get-schooled {
+  color: #ffffff;
+  text-align: center;
+  font: 700 120px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 377px;
+  top: calc(50% - 326.5px);
+}
+.smiles {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 593px;
+  top: calc(50% - 185.5px);
+}
+.grin {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 704px;
+  top: calc(50% - 185.5px);
+}
+.laugh {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 797px;
+  top: calc(50% - 185.5px);
+}
+.button {
+  width: 162px;
+  height: 44px;
+  position: absolute;
+  left: 639px;
+  top: 419px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.button-background {
+  background: #c271ff;
+  border-radius: 22px;
+  width: 162px;
+  height: 44px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.register-for-free {
+  color: #ffffff;
+  text-align: center;
+  font: 600 14px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: calc(50% - 9px);
+}
+.pros {
+  position: absolute;
+  inset: 0;
+}
+.pro-4 {
+  width: 150px;
+  height: 237px;
+  position: absolute;
+  left: 1076px;
+  top: 758px;
+  overflow: hidden;
+}
+.henry-hughes {
+  color: #ffffff;
+  text-align: center;
+  font: 900 18px/27px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -41.5px);
+  width: 150px;
+}
+._24-h-smiles-winne {
+  color: #ffffff;
+  text-align: center;
+  font: 400 italic 16px/24px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -70.5px);
+  width: 150px;
+}
+.avatar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.pro-3 {
+  width: 150px;
+  height: 237px;
+  position: absolute;
+  left: 787px;
+  top: 758px;
+  overflow: hidden;
+}
+.bruce-walters {
+  color: #ffffff;
+  text-align: center;
+  font: 900 18px/27px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -41.5px);
+  width: 150px;
+}
+.best-friend-smile {
+  color: #ffffff;
+  text-align: center;
+  font: 400 italic 16px/24px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -70.5px);
+  width: 150px;
+}
+.avatar2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.pro-2 {
+  width: 150px;
+  height: 237px;
+  position: absolute;
+  left: 506px;
+  top: 758px;
+  overflow: hidden;
+}
+.nannie-lawrence {
+  color: #ffffff;
+  text-align: center;
+  font: 900 18px/27px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -41.5px);
+  width: 150px;
+}
+.best-little-smile {
+  color: #ffffff;
+  text-align: center;
+  font: 400 italic 16px/24px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -70.5px);
+  width: 150px;
+}
+.avatar3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.pro-1 {
+  width: 150px;
+  height: 237px;
+  position: absolute;
+  left: 217px;
+  top: 758px;
+  overflow: hidden;
+}
+.phillip-massey {
+  color: #ffffff;
+  text-align: center;
+  font: 900 18px/27px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -41.5px);
+  width: 150px;
+}
+.smile-of-the-year {
+  color: #ffffff;
+  text-align: center;
+  font: 400 italic 16px/24px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -70.5px);
+  width: 150px;
+}
+.avatar4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
 }
 
-.link span {
-    display: inline-block;
-    margin: 0 15px;
-    font-weight: bold;
-    cursor: pointer;
-    text-transform: uppercase;
+.part-1-testimonials,
+.part-1-testimonials * {
+  box-sizing: border-box;
+}
+.part-1-testimonials {
+  position: absolute;
+  inset: 0;
+}
+.background {
+  position: absolute;
+  left: -1px;
+  top: 1093px;
+  overflow: visible;
+}
+.testimonial {
+  width: 943px;
+  height: 160px;
+  position: static;
+}
+.avatar {
+  position: absolute;
+  left: 259px;
+  top: 1201px;
+  overflow: visible;
+}
+.text {
+  width: 730px;
+  height: 158px;
+  position: absolute;
+  left: 472px;
+  top: 1203px;
+  overflow: hidden;
+}
+.weather-presenter {
+  color: #ffffff;
+  text-align: left;
+  font: 400 italic 22px/33.6px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -45px);
+}
+.person-name {
+  color: #ffffff;
+  text-align: left;
+  font: 700 22px/33.6px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -11px);
+}
+.those-tutorials-ar {
+  color: #ffffff;
+  text-align: left;
+  font: 400 22px/33.6px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 730px;
 }
 
-/* Main Content Styles */
-.main {
-    background-color: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+.part-2-tutorials,
+.part-2-tutorials * {
+  box-sizing: border-box;
+}
+.part-2-tutorials {
+  width: 1228px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.tuto-1 {
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  left: 58px;
+  top: 115px;
+  overflow: hidden;
+}
+.background {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+.avatar {
+  position: absolute;
+  left: 13px;
+  top: 261px;
+  overflow: visible;
+}
+.phillip-massey {
+  color: #c271ff;
+  text-align: left;
+  font: 600 14px/27px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 56px;
+  top: calc(50% - -95.5px);
+}
+._8-min {
+  color: #c271ff;
+  text-align: right;
+  font: 600 14px/27px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 199px;
+  top: calc(50% - -129.5px);
+}
+.rating {
+  position: absolute;
+  left: 13px;
+  top: 305px;
+  overflow: visible;
+}
+.lorem-ipsum-dolor-si {
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+  font: 400 14px/24px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 13px;
+  top: calc(50% - -32.1px);
+  width: 242px;
+}
+.diagonal-smile {
+  color: #071629;
+  text-align: left;
+  font: 700 16px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 13px;
+  top: calc(50% - -4.5px);
+}
+.preview {
+  position: absolute;
+  inset: 0;
+}
+.mask3 {
+  background: #d8d8d8;
+  border-radius: 5px 5px 0px 0px;
+  width: 255px;
+  height: 154px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.bitmap {
+  width: 821px;
+  height: 1232px;
+  position: absolute;
+  left: -353px;
+  top: -289px;
+}
+.play {
+  position: absolute;
+  left: 96px;
+  top: 45px;
+  overflow: visible;
+}
+.tuto-2 {
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  left: 344px;
+  top: 115px;
+  overflow: hidden;
+}
+.avatar2 {
+  position: absolute;
+  left: 13px;
+  top: 261px;
+  overflow: visible;
+}
+.rating2 {
+  position: absolute;
+  left: 13px;
+  top: 305px;
+  overflow: visible;
+}
+.sad-smile {
+  color: #071629;
+  text-align: left;
+  font: 700 16px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 13px;
+  top: calc(50% - -4.5px);
+}
+.bitmap2 {
+  width: 402px;
+  height: 603px;
+  position: absolute;
+  left: -147px;
+  top: -232px;
+}
+.play2 {
+  position: absolute;
+  left: 96px;
+  top: 45px;
+  overflow: visible;
+}
+.tuto-3 {
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  left: 629px;
+  top: 115px;
+  overflow: hidden;
+}
+.avatar3 {
+  position: absolute;
+  left: 13px;
+  top: 261px;
+  overflow: visible;
+}
+.rating3 {
+  position: absolute;
+  left: 13px;
+  top: 305px;
+  overflow: visible;
+}
+.natural-smile {
+  color: #071629;
+  text-align: left;
+  font: 700 16px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 13px;
+  top: calc(50% - -4.5px);
+}
+.bitmap3 {
+  width: 261px;
+  height: 391px;
+  position: absolute;
+  left: -3.67px;
+  top: -119px;
+}
+.play3 {
+  position: absolute;
+  left: 96px;
+  top: 45px;
+  overflow: visible;
+}
+.tuto-4 {
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  left: 914px;
+  top: 115px;
+  overflow: hidden;
+}
+.avatar4 {
+  position: absolute;
+  left: 13px;
+  top: 261px;
+  overflow: visible;
+}
+.rating4 {
+  position: absolute;
+  left: 13px;
+  top: 305px;
+  overflow: visible;
+}
+.happy-smile {
+  color: #071629;
+  text-align: left;
+  font: 700 16px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 13px;
+  top: calc(50% - -4.5px);
+}
+.bitmap4 {
+  width: 546px;
+  height: 364px;
+  position: absolute;
+  left: -110.5px;
+  top: -105px;
+}
+.play4 {
+  position: absolute;
+  left: 96px;
+  top: 45px;
+  overflow: visible;
 }
 
-/* Block Styles */
-.block1 {
-    text-align: center;
-    margin-top: 20px;
+.part-3-free-membership,
+.part-3-free-membership * {
+  box-sizing: border-box;
+}
+.part-3-free-membership {
+  width: 1440px;
+  height: 502px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.button {
+  width: 162px;
+  height: 44px;
+  position: absolute;
+  left: 639px;
+  top: 406px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.button-background {
+  background: #c271ff;
+  border-radius: 22px;
+  width: 162px;
+  height: 44px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.register-for-free {
+  color: #ffffff;
+  text-align: center;
+  font: 600 14px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 21.5px;
+  top: calc(50% - 9px);
+}
+.dot-1 {
+  width: 257px;
+  height: 153px;
+  position: absolute;
+  left: 164px;
+  top: 168px;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si {
+  color: #ffffff;
+  text-align: center;
+  font: 400 14px/26px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 22.5px;
+  top: calc(50% - -24.5px);
+  width: 212px;
+}
+.lorem-ipsum {
+  color: #ffffff;
+  text-align: center;
+  font: 600 18px/26px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0.5px;
+  top: calc(50% - 14.5px);
+  width: 256px;
+}
+.smile {
+  position: absolute;
+  left: 106.71px;
+  top: 0.03px;
+  overflow: visible;
+}
+.dot-2 {
+  width: 257px;
+  height: 153px;
+  position: absolute;
+  left: 448px;
+  top: 168px;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si2 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 14px/26px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 18px;
+  top: calc(50% - -24.5px);
+  width: 221px;
+}
+.smile2 {
+  position: absolute;
+  left: 106.71px;
+  top: 0.03px;
+  overflow: visible;
+}
+.dot-3 {
+  width: 257px;
+  height: 153px;
+  position: absolute;
+  left: 733px;
+  top: 168px;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si3 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 14px/26px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 21px;
+  top: calc(50% - -24.5px);
+  width: 215px;
+}
+.smile3 {
+  position: absolute;
+  left: 106.71px;
+  top: 0.03px;
+  overflow: visible;
+}
+.dot-4 {
+  width: 257px;
+  height: 153px;
+  position: absolute;
+  left: 1019px;
+  top: 168px;
+  overflow: hidden;
+}
+.smile4 {
+  position: absolute;
+  left: 106.71px;
+  top: 0.03px;
+  overflow: visible;
+}
+.part-4-faq,
+.part-4-faq * {
+  box-sizing: border-box;
+}
+.part-4-faq {
+  width: 920px;
+  height: 707px;
+  position: relative;
+  overflow: hidden;
+}
+.f-a-q {
+  color: #071629;
+  text-align: center;
+  font: 300 60px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 407px;
+  top: calc(50% - 353.5px);
+}
+.q-1 {
+  width: 350px;
+  height: 242px;
+  position: absolute;
+  left: 0px;
+  top: 149px;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si {
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+  font: 400 14px/24px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 71px);
+  width: 350px;
+}
+.how-does-this-work {
+  color: #071629;
+  text-align: left;
+  font: 700 16px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 121px);
+}
+.q-3 {
+  width: 350px;
+  height: 242px;
+  position: absolute;
+  left: 0px;
+  top: 465px;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si-copy {
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+  font: 400 14px/24px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 71px);
+  width: 350px;
+}
+.q-2 {
+  width: 350px;
+  height: 242px;
+  position: absolute;
+  left: 570px;
+  top: 149px;
+  overflow: hidden;
+}
+.q-4 {
+  width: 350px;
+  height: 242px;
+  position: absolute;
+  left: 570px;
+  top: 465px;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si-copy-2 {
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+  font: 400 14px/24px "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 71px);
+  width: 350px;
 }
 
-.heading.tag {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.part-5-footer,
+.part-5-footer * {
+  box-sizing: border-box;
 }
-
-.button.tag a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007acc;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+.part-5-footer {
+  width: 1440px;
+  height: 249px;
+  position: relative;
+  overflow: hidden;
 }
-
-.title.tag {
-    font-size: 18px;
-    color: #333;
+.background {
+  background: #071629;
+  width: 1440px;
+  height: 249px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
-
-.block11 {
-    margin-top: 20px;
-    text-align: center;
+.logo {
+  width: 169px;
+  height: 30px;
+  position: absolute;
+  left: 165px;
+  top: 95px;
+  overflow: hidden;
 }
-
-.title.tag2 {
-    font-size: 20px;
-    font-weight: bold;
+.smile-school {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Coiny", sans-serif;
+  position: absolute;
+  left: 55px;
+  top: calc(50% - 9px);
 }
-
-/* Faculty Block Styles */
-.block111 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+.smile {
+  position: absolute;
+  left: 0.59px;
+  top: 0.02px;
+  overflow: visible;
 }
-
-.block1111,
-.block1112,
-.block1113,
-.block1114 {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
+.smileschool-2020 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px "Source Sans Pro", sans-serif;
+  opacity: 0.3516787588596344;
+  position: absolute;
+  left: 672px;
+  top: calc(50% - -70.5px);
 }
-
-.block1111 img,
-.block1112 img,
-.block1113 img,
-.block1114 img {
-    max-width: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.social-icons {
+  position: absolute;
+  inset: 0;
 }
-
-.name1,
-.name2,
-.name3,
-.name4 {
-    font-weight: bold;
-    margin-bottom: 5px;
+.instagram {
+  position: absolute;
+  left: 1170px;
+  top: 90px;
+  overflow: visible;
 }
-
-.subtitle1,
-.subtitle2,
-.subtitle3,
-.subtitle4 {
-    color: #777;
+.twitter {
+  position: absolute;
+  left: 1120px;
+  top: 90px;
+  overflow: visible;
 }
-
-/* Quote Styles */
-.quote {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.qimage img {
-    max-width: 100px;
-    margin-bottom: 10px;
-}
-
-.qblock {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.quote1 {
-    font-style: italic;
-    margin-bottom: 10px;
-}
-
-.author1 {
-    font-weight: bold;
-    color: #333;
-}
-
-/* Video Styles */
-.videos {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.heading.tag1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.vblock {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.vblock1,
-.vblock2,
-.vblock3,
-.vblock4 {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.vimage1,
-.vimage2,
-.vimage3,
-.vimage4 {
-    max-width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.vtitle1,
-.vtitle2,
-.vtitle3,
-.vtitle4 {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.vblock11,
-.vblock12,
-.vblock21,
-.vblock22,
-.vblock31,
-.vblock32,
-.vblock41,
-.vblock42 {
-    margin-top: 10px;
-}
-
-.vblock11image1,
-.vblock21image1,
-.vblock31image1,
-.vblock41image1 {
-    max-width: 80px;
-    border-radius: 50%;
-    margin-bottom: 5px;
-}
-
-.vblock11title1,
-.vblock21title1,
-.vblock31title1,
-.vblock41title1 {
-    font-weight: bold;
-}
-
-/* Membership Styles */
-.membership {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.mtitle {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.mblock {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.mblock1,
-.mblock2,
-.mblock3,
-.mblock4 {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.mblock1image,
-.mblock2image,
-.mblock3image,
-.mblock4image {
-    max-width: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.mblock1title,
-.mblock2title,
-.mblock3title,
-.mblock4title {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.mblocktext {
-    color: #777;
-}
-
-.mbutton a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007acc;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-/* FAQ Styles */
-.faq {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.ftitle {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.fblock {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.fblock1,
-.fblock2 {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.fbtitle1,
-.fbtitle2,
-.fbtitle21,
-.fbtitle22 {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.fbtext1,
-.fbtext2,
-.fbtext21,
-.fbtext22 {
-    color: #777;
-}
-
-/* Footer Styles */
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.globalblock {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.logo1 img {
-    max-width: 100px;
-    margin-bottom: 10px;
-}
-
-.iblock {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.image1 img,
-.image2 img,
-.image3 img {
-    max-width: 80px;
-    border-radius: 50%;
+.facebook {
+  position: absolute;
+  left: 1070px;
+  top: 90px;
+  overflow: visible;
 }
