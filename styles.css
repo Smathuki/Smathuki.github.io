@@ -860,3 +860,20 @@
   top: 90px;
   overflow: visible;
 }
+#mask0_3558_202,
+#mask0_3558_209,
+#mask0_3558_216,
+#mask0_3558_223,
+#mask0_3558_174,
+#mask0_3558_80,
+#mask0_3558_103,
+#mask0_3558_126,
+#mask0_3558_149 {
+  mask-type: luminance;
+  maskUnits: userSpaceOnUse;
+  x: 0;
+  y: 0;
+  /* Set the width and height as needed */
+  width: 150px; /* Change the value as needed */
+  height: 150px; /* Change the value as needed */
+}
